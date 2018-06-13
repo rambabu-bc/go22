@@ -1,0 +1,22 @@
+package main 
+
+
+import "fmt"
+
+
+import "math"
+
+
+func main () {
+
+
+var x int = 50
+
+
+var y float64 = 49.50
+
+
+fmt.Println (int(math.Floor( y + 0.50 )) + x )
+
+
+}
